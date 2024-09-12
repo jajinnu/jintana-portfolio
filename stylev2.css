@@ -1,0 +1,636 @@
+h1 {
+  color:black;
+  text-align: center;    
+  font-size: 40px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  word-spacing:  .5em;
+  margin-top:-3%;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure body and html take up full viewport height */
+}
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background: #ffffff;
+}
+
+.header{
+  padding: 20px 30px;
+  background: #eae4dd;
+  color: #f1f1f1;
+}
+
+
+.some{
+    background-color:#eae4dd;
+    padding:20% 2% 5% 0;
+}
+
+
+h2{
+    color: #532f1b;
+    text-align: center;
+    font-size: 30px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    word-spacing:  .5em;
+}
+
+h3{
+  color:#3a1c0c;
+    font-size: 20px;
+    font-weight: initial;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    word-spacing:  .15em;
+}
+
+h4{
+    color:#3a1c0c;
+    font-size: 18px;
+    font-weight: initial;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 10%;
+    margin-bottom: 2%;
+    font-weight: bold;
+    text-align: center;
+}
+
+h5{
+    color:#3a1c0c;
+    font-size: 15px;
+    font-weight: initial;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    word-spacing:  .15em;
+}
+/*top right bottom left */
+h6{
+  color: #3d405b;
+  font-size: 25px;
+  margin: 5% 5% 2% 40%;
+  font-weight: initial;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  word-spacing:  .15em;
+}
+
+.h7{
+    color:#3a1c0c;
+    font-size: 17px;
+    font-weight: initial;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.h8{
+  color:#e07a5f;
+  font-size: 17px;
+  font-weight: initial;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-left:3%
+}
+
+.h9{
+  color:black;
+  font-size: 30px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 10% 10% 5% 10%;
+  word-spacing:  .3em;
+  font-weight: bold;
+}
+/*Header before typing effect*/
+.h10{
+  color: #ffffff;
+  font-size: 30px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  margin: 3% 0 2% 5%;
+  text-transform: uppercase;
+}
+
+.h11{
+  color:#12143c;
+  font-size: 13px;
+  font-weight: initial;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 2%;
+}
+
+.h12{
+  color:#000000;
+  font-size: 100px;
+  font-weight: initial;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 10%;
+
+}
+
+#left{
+    float:left;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+body{
+
+    background-color:#ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+  }
+  
+main{
+    flex:1;
+  }
+
+
+#right{
+    float:right;
+    margin: 0 0 0 20px;
+    padding-top : 5%;
+}
+
+#logo{
+    float:right;
+    width:70px;
+    margin-top: 15px;
+    margin-right: 25px;
+
+}
+
+hr {
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default padding */
+  border: none; /* Remove default border */
+  height: 5px; /* Set the height */
+  background-color: #9A9580; /* Set the color */
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+
+.newsection{
+  background-color: #f4f1de;
+  padding: 3% 5% 5% 5%;
+  margin: 0% 10% 10% 10%;
+}
+
+.dee{
+  background-color: rgb(239, 230, 230);
+  margin: 0;
+  margin-top: 10%;
+  padding: 20%;
+}
+
+.block{
+  margin:3% 0 0% 0%;
+  padding: 1% 0 2% 9%;
+}
+
+.emptyblock{
+  background-color: rgb(255, 255, 255);
+  padding: 1%;
+  padding-bottom: 2%;
+}
+
+.emptyblock2{
+  background-color: rgb(255, 255, 255);
+  padding: 0 2% 2% 2%;
+  position: center;
+}
+
+.emptyblock3{
+  background-color: rgb(255, 255, 255);
+  padding: 0 4% 2% 4%;
+  position: center;
+}
+
+
+/*top right bottom left */
+.boxtype{
+  background-color: #3d405b; 
+  margin: 15% 5% 5% 5%;
+  padding: 1px 5% 5% 0;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.secondcolumn {
+float:left;
+width:50%;
+height: 100%;
+padding: 0 1% 0 1%;
+
+}
+
+.thirdcolumn{
+background-color: white;
+float:left;
+width:30%;
+height: 100%;
+padding-bottom: 10px;
+}
+
+.fourthcolumn{
+  background-color: rgb(255, 255, 255);
+  float:left;
+  width:20%;
+  height: 280px;
+  padding-bottom: 10px;
+  }
+
+/*top right bottom left */
+/* Drop-down button */
+.dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* Menu lines */
+.menu {
+  width: 35px;
+  height: 3px;
+  background-color: #301506;
+  margin: 10px 20px 0 10px;
+}
+
+/* Drop-down menu styling */
+.dropdown {
+  position: relative;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #E1D7C6;
+  min-width: 140px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #cdc2a5;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Submenu for Design */
+.sub-dropdown {
+  position: relative;
+}
+
+.sub-dropdown-content {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background-color: #E1D7C6;
+  min-width: 140px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+
+.sub-dropdown-content a {
+  padding: 12px;
+}
+
+.submenu-link:hover + .sub-dropdown-content {
+  display: block;
+}
+
+/* Show submenu on hover over the "Design" link */
+.sub-dropdown:hover .sub-dropdown-content {
+  display: block;
+}
+
+
+
+/* blog */
+article{
+    border: 1px black;
+    padding:10px;
+    margin: 40px;
+    margin-top: 10%;
+    box-shadow: 0 0 10px #312f28;
+    background-color:rgb(243, 236, 236);
+}
+
+.boxed{
+
+  border: 1px forestgreen;
+  margin-bottom: 20%;
+
+}
+
+.author{
+    text-align: left;
+}
+.blogdate{
+    text-align-last:right ;
+}
+ 
+li{
+    margin-bottom: 0px;
+}
+
+
+/*BUllet point*/
+
+li {
+    margin-bottom:1em;
+    padding: 0 10% 0 10%;
+    text-align: left;
+    word-spacing: 0.05em;
+  }
+
+
+/* Add columns paragrpah*/
+  .container{
+    margin-top: 5%;
+    column-count: 3;
+    column-width: 200px;
+    column-gap: 20px;
+  }
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+ p{
+  padding-left: 10px;
+ }
+
+  /* Style the video: 100% width and height to cover the entire window */
+.myVideo {
+  right: 50;
+  bottom: 0;
+}
+
+/* Add some content at the bottom of the video/page */
+.footer {
+  background: #3d405b;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+  width: 100%; /* Ensure the footer spans the full width */
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for visual effect */
+}
+
+/*Check the pop up boxxxx*/
+.box {
+  width: 60%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fb0505;
+  border-radius: 5px/10px;
+  background-clip: padding-box;
+  text-align: center;
+}
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #e07a5f;
+  border: 2px solid #3d405b;
+  border-radius: 48px/55px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  background: #3d405b;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 150px auto;
+  padding: 20px;
+  background: #ca6767;
+  border-radius: 5px;
+  width: 70%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #295F98;
+}
+.popup .content {
+  max-height: 100%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 100%;
+  }
+  .popup{
+    width: 100%;
+  }
+}
+
+/* TYPING EFFECTS*/
+.typewriter h6 {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: 
+    typing 5.5s steps(40, end),
+    blink-caret 5.75s step-end infinite;
+}
+
+/* TYPING EFFECTS*/
+.typewriter h5 {
+  color: #f2cc8f;
+  font-size: 25px;
+  text-align: center;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .02em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .05em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 80% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  20% { border-color: transparent }
+}
+
+
+
+
+
+
+/*Image slicer*/
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides1, .mySlides2, mySlides3 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next, .text {font-size: 11px}
+}
+
+.dot-container {
+  text-align: center;
+  margin-top: 10px;
+}
